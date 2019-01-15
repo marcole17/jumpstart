@@ -92,7 +92,7 @@ body {
 
 @media only screen and (max-width:490px) {
   .jumbotron h1 {
-    font-size: 4.7rem;;
+    font-size: 4.2rem;;
   }
 }
 
@@ -119,8 +119,15 @@ body {
   width: 100%;
 }
 
+@media only screen and (max-width: 851px) {
+  .relative-button {
+    position: relative;
+    top: -15rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
-  .btn {
+  .relative-button {
     position: relative;
     top:8.2rem;
   }
