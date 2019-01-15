@@ -96,7 +96,7 @@ body {
   }
 }
 
-@media only screen and (max-width:386px) {
+@media only screen and (max-width:400px) {
   .jumbotron h1 {
     font-size: 3.5rem;
   }
